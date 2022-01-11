@@ -6,23 +6,35 @@ import store from "./domain/store";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 
-const bodyStyle = css`
+const globalStyle = css`
+	html { 
+		height: 100vh;
+	}
+
 	body { 
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
 		background: #ECEFF1;
 		color: #263238;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
 		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+		height: 100vh;
+		width: 100vw;
+		margin: 0;
+	
+		#root {
+			height: 100vh;
+			width: 100vw;	
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+		}
 	}
 `;
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Provider store={store}>
-			<Global styles={bodyStyle} />
+			<Global styles={globalStyle} />
 			<App />
 		</Provider>
 	</React.StrictMode>,
