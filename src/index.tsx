@@ -1,26 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Global, css } from "@emotion/react";
-import { createStore, compose } from "redux";
 import { Provider } from "react-redux";
+import store from "./domain/store";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
-
-// https://stackoverflow.com/a/68212175
-declare global {
-	interface Window {
-		__REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
-	}
-}
-
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-
-const store = createStore(
-	() => ({}),
-	// Preloaded state
-	undefined,
-	composeEnhancers(),
-);
 
 const bodyStyle = css`
 	body { 
