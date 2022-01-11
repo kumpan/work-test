@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-
+import { Global, css } from "@emotion/react";
 import { createStore, compose } from "redux";
 import { Provider } from "react-redux";
+import reportWebVitals from "./reportWebVitals";
+import App from "./App";
 
 // https://stackoverflow.com/a/68212175
 declare global {
@@ -23,9 +22,23 @@ const store = createStore(
 	composeEnhancers(),
 );
 
+const bodyStyle = css`
+	body { 
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		background: #ECEFF1;
+		color: #263238;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	}
+`;
+
 ReactDOM.render(
 	<React.StrictMode>
 		<Provider store={store}>
+			<Global styles={bodyStyle} />
 			<App />
 		</Provider>
 	</React.StrictMode>,
