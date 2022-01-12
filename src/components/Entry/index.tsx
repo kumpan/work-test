@@ -1,7 +1,5 @@
-// Display individual pokemon based on given id
-
 const Entry = (id: number): React.ReactElement => {
-	return <div />;
+	return <div>{/* TODO: Display pokemon data based on id */}</div>;
 };
 
 export default Entry;

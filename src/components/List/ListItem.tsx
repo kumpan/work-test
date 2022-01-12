@@ -1,5 +1,5 @@
-// Display item in list
-
-const ListItem = (id: number): React.ReactElement => <div />;
+const ListItem = (id: number): React.ReactElement => {
+	return <div>{/* TODO: Display pokemon data based on id */}</div>;
+};
 
 export default ListItem;
