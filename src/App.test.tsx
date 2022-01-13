@@ -14,6 +14,6 @@ describe("App", () => {
 	it("should render without", () => {
 		render(createComponent());
 
-		expect(screen.getByText("List")).toBeDefined();
+		expect(screen.getByTestId("main-list")).toBeDefined();
 	});
 });

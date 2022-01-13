@@ -11,7 +11,7 @@ const List = (): React.ReactElement => {
 	// 1. List fetched pokemon
 	// 2. Functionallity to select a pokemon
 
-	return <MainList>List</MainList>;
+	return <MainList data-test-id="main-list">List</MainList>;
 };
 
 export default List;
