@@ -12,21 +12,31 @@ It has been setup using create-react-app with typescript and redux-toolkit as a 
 
 Please fork this repository and finish the tasks that are given below. The copy you create and work on will be used as a basis for the technical interview.
 
-## Task
+The code you write should follow the established conventions already in place.
 
-### Main task
+Try to keep track of how much time you spend on this test.
+
+You may add anything extra beyond the stated main tasks that you would like. The optional tasks can be used as insipration for this, but you are free to add anything that you feel would be interesting to look at or discuss during the technical interview.
+
+## Tasks
+
+### Main tasks
 
 The task is to complete the TODOs setup in the code:
 
-- Displaying a fetched list of pokemon
-- Ability to select a pokemon from that list
-- Fetch and store data for individual pokemon
-- Display the data for individual pokemon
+- Displaying a fetched list of pokémon
+  - List item should include atleast name and image
+- Ability to select a pokémon from that list
+- Fetch and store data for individual pokémon
+- Display the data for individual pokémon
   - This can either be done on a seperate or by using a modal
 
 ### Optional Tasks
 
-- Write tests for your code
+- Writing tests for your code
+- Styling
+- Search functionallity
+- Saving favorite pokémon
 
 ## Links
 
