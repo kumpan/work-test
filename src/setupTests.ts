@@ -6,3 +6,5 @@ import "@testing-library/jest-dom";
 
 const { configure } = require("@testing-library/react");
 configure({ testIdAttribute: "data-test-id" });
+
+require("jest-fetch-mock").enableMocks();
