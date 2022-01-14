@@ -10,7 +10,7 @@ It has been setup using create-react-app with typescript and redux-toolkit as a 
 
 ## Process
 
-Please fork this repository and finish the tasks that are given below. The copy you create and work on will be used as a basis for the technical interview.
+Please use this repository as a template and finish the tasks that are given below. The copy you create and work on will be used as a basis for the technical interview.
 
 The code you write should follow the established conventions already in place.
 
