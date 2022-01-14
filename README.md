@@ -26,10 +26,11 @@ The task is to complete the TODOs setup in the code:
 
 - Displaying a fetched list of pokémon
   - List item should include atleast name and image
+  - The list should either have pagination or infinite scrolling
 - Ability to select a pokémon from that list
 - Fetch and store data for individual pokémon
 - Display the data for individual pokémon
-  - This can either be done on a seperate or by using a modal
+  - Display the data on a seperate page, using routing
 
 ### Optional Tasks
 
