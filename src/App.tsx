@@ -2,8 +2,8 @@ import List from "./components/List";
 import Entry from "./components/Entry";
 
 const App = () => {
-	// TOOD: Functionallity to display a pokemon selected from the list
-
+	// TODO: Functionallity to display a pokémon selected from the list
+	// TODO: Add routing to enable displaying individual pokémon
 	return <List />;
 };
 
