@@ -55,4 +55,4 @@ Documentation for the Redux Toolkit
 
 ## Questions and feedback
 
-If you have any questions about the test or the process, or any feedback about it, please contact Kumpan at @@@@@
+If you have any questions about the test or the process, or any feedback about it, please contact Kumpan at tobias@kumpan.se
