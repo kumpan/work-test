@@ -1,4 +1,4 @@
-const ListItem = (id: number): React.ReactElement => {
+const ListItem = ({ id }: { id: number }): React.ReactElement => {
 	return <div>{/* TODO: Display pokemon data based on id */}</div>;
 };
 
